@@ -1,0 +1,21 @@
+package selfProgramming;
+
+public class MissingNo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int totalnum;
+		int[] numbers = new int[] {1,2,3,4,5,6,7};
+		totalnum = 8;
+		int expectedsum = totalnum * ((totalnum + 1) / 2);
+		int numsum = 0;
+		
+		for (int i : numbers) {
+			numsum += i;
+		}
+		System.out.println(expectedsum - numsum);
+		System.out.println("\n");
+	}
+
+}
