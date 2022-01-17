@@ -1,0 +1,15 @@
+package selfProgramming;
+import java.util.Arrays;
+import java.util.ArrayList;
+public class ArraytoArrayList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String [] myArray = new String [] {"Python" , "JAVA" , "PHP" , " Perl " , "C#" , "C++"};
+		ArrayList<String> list = new ArrayList<String>(Arrays.asList(myArray));
+		
+		System.out.println(list);
+	}
+
+}
